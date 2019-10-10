@@ -41,7 +41,8 @@ export abstract class MaskedTextFieldBase extends TextField implements MaskedTex
         "&": /\S/,
         "C": /./,
         "A": /[a-zA-Z0-9]/,
-        "a": /[a-zA-Z0-9]|\s/
+        "a": /[a-zA-Z0-9]|\s/,
+        "1": /[1-9]/
     };
     private _maskTokens: Array<string | RegExp> = [];
 
